@@ -25,15 +25,15 @@ btn.addEventListener('click',function()
        description.innerHTML = descr;   
        
        if(descr=="sunny"){
-       img.src = './sunny.png';
+       img.src = 'weather/sunny.png';
        }
       else if(descr=="rainy")
-        img.src='./rainy.png';
+        img.src='weather/rainy.jpg';
       
         else if(descr=="haze")
-        img.src = "./haze.png";
+        img.src = "weather/haze.png";
         else 
-        img.src="./weather.png";
+        img.src="weather/weather.png";
     })
     .catch(err=>
         alert("Invalid city name"));
