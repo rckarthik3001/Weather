@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Find your City Weather</h1>
+    <div class="container">
+        <section class="inputs">
+            <input type="text" placeholder="Enter city name..." id="cityinput">
+            <input type="submit" id="submit" value="Search">
+        </section>
+        <section class="details">
+            <h2 id="cityname"></h2>
+            <div class="tempDiv">
+                <img id="tempImage"/>
+                <h2 id="temp"></h2>
+            </div>
+            <h4 id="desc"></h4>
+        </section>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
