@@ -21,7 +21,7 @@ btn.addEventListener('click',function()
         var descr = data['weather'][0]['description'];
 
         cityName.innerHTML = `Weather of ${input.value}`;
-       tempValue.innerHTML = `${convert(temp)} C`;
+       tempValue.innerHTML = `${convert(temp)} &#8451;`;
        description.innerHTML = descr;   
        
        if(descr=="sunny"){
