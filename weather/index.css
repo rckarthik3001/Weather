@@ -10,12 +10,12 @@ body{
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background:linear-gradient(45deg,rgb(119, 0, 255),cyan,lightgreen);
+    background:linear-gradient(45deg,cyan,rgb(66, 151, 242),lightgreen);
 }
 body h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 2rem;
-    color:darkmagenta;
+    color:rgb(73, 2, 73);
 }
 .container{
     display:flex;
@@ -26,7 +26,7 @@ body h1{
     /* min-height: 50vh; */
     max-width: 70%;
     border-radius: 20px;
-    background-color: rgb(0, 208, 255);
+    background-color: rgb(111, 208, 232);
 }
 .inputs{
     display:flex;
@@ -48,12 +48,24 @@ input[type="image"]{
 .tempDiv{
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
 }
 .tempDiv img{
     width:30%;
     height:30%;
+    margin:10px 0;
+}
 
+.additional-info{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.additional-info h4{
+    margin:10px 15px;
+    font-size: 20px;
 }
 .container .details{
     align-items:center;
@@ -62,7 +74,7 @@ input[type="image"]{
 }
 
 #cityname{
-    margin:2rem 0 2rem 0;
+    margin:1rem 0;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
@@ -70,6 +82,6 @@ input[type="image"]{
 #desc{
     font-size:1rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    margin-top:2rem;
     font-style:italic;
+    margin:8px 0;
 }
