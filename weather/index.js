@@ -27,7 +27,7 @@ btn.addEventListener('click',function()
        tempValue.innerHTML = `${convert(temp)} &#8451;`;
        description.innerHTML = descr;   
        humidity.innerHTML = `Humidity: <span>${h}%</span>`;
-       wind.innerHTML = `Wind Speed: <span>${ws} m/s</span>`;
+       wind.innerHTML = `Wind Speed: <span>${ws}m/s</span>`;
        if(descr=="sunny"){
        img.src = 'weather/sunny.png';
        }
