@@ -1,4 +1,2 @@
-#Weather
-
-click below to open the site
-https://rckarthik3001.github.io/T1-Weather-BharatIntern
+##Weather Application
+To know the current weather conditions of the given city all around the globe.
